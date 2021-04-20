@@ -1,0 +1,399 @@
+<!DOCTYPE viết web>
+<span style="color: black; background-color: red"></span>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: VNI-Ariston;
+  padding: 10px;
+  background: #e9d8f4;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  color: #652c8b;
+}
+
+.header h1 {
+  padding: 500px;
+  font-size: 500px;
+}
+
+.header b {
+  font-size: 50px;
+}
+.header p {
+  font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #4c226e;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+  background-color: #70cbdb;
+  color: white;
+}
+
+/* Tạo hai cột không bằng nhau, float cạnh nhau */
+/* Cột trái */
+.leftcolumn { 
+  float: left;
+  width: 65%;
+}
+
+/* Cột phải */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  background-color: #e9d8f4;
+  padding-left: 20px;
+}
+
+/* Hình ảnh tượng trưng */
+.fakeimg {
+  background-color: #baa1cc;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Thêm định dạng thẻ cho bài viết */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear float khác sau các cột */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 1px;
+  text-align: center;
+  background: white;
+  margin-top: 1px;
+}
+
+/* Bố cục linh hoạt: các cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
+có chiều rộng dưới 200px */
+@media screen and (max-width: 200px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Bố cục linh hoạt: Thanh menu điều hướng xếp chồng lên nhau thay vì cạnh nhau
+khi màn hình có chiều rộng dưới 200px  */
+@media screen and (max-width: 200px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+<meta charset="utf-8">
+        <style>
+          * {
+            box-sizing:border-box
+          }
+          h2 {
+            text-align: center;
+          }
+          /* Slideshow container */
+          .slideshow-container {
+            
+            position: relative;
+            margin: auto;
+          }
+          /* Ẩn các slider */
+          .mySlides {
+              display: none;
+          }
+
+          /* định dạng các chấm chuyển đổi các slide */
+          .dot {
+            cursor:pointer;
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          /* khi được hover, active đổi màu nền */
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+
+          /* Thêm hiệu ứng khi chuyển đổi các slide */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 3s;
+            animation-name: fade;
+            animation-duration: 3s;
+          }
+
+          @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+
+          @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+        </style>
+</style>
+<title> A2K52 </title>
+</head>
+<body>
+  <iframe  src="TinhBanDieuKy-AMeeRickyStarLangLD-6927558.mp3" hidden> </iframe>
+    <marquee direction="right" bgcolor="pink" ><span style="color: black; ">Welcome to A2K52's website 😊 !!!
+    </span></marquee>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="33403730ace35ebd07f2.jpg" width="1220" height="600">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="6a09a5233bf0c9ae90e1.jpg" width="1220" height="600">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="18c8866416b7e4e9bda6.jpg" width="1220" height="600">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="872b8a58118be3d5ba9a.jpg" width="1220" height="600">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="7371f1e36d309f6ec621.jpg" width="1220" height="600">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="094344c3d8102a4e7301.jpg" width="1220" height="600">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="d97bae0e35ddc7839ecc.jpg" width="1220" height="600">
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(1)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(2)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(3)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(4)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(5)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(6)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+      <span class="dot" onclick="currentSlide(7)" onmouseover="this.stop()" onmouseout="this.start()"></span> 
+    </div>
+    <script>
+      //khai báo biến slideIndex đại diện cho slide hiện tại
+      var slideIndex;
+      // KHai bào hàm hiển thị slide
+      function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+          slides[slideIndex].style.display = "block";  
+          dots[slideIndex].className += " active";
+          //chuyển đến slide tiếp theo
+          slideIndex++;
+          //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+          if (slideIndex > slides.length - 1) {
+            slideIndex = 0
+          }    
+          //tự động chuyển đổi slide sau 2s
+          setTimeout(showSlides, 2000);
+      }
+      //mặc định hiển thị slide đầu tiên 
+      showSlides(slideIndex = 0);
+
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+    </script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <h1> <center><span style="color: rgb(165, 77, 143); ">A2K52</span></center></h1>
+  <p><center>Trường THPT chuyên Đại học Vinh</center></p>
+</div>
+<div class="topnav"> 
+  <a href= "index.html" > Trang chủ </a>
+  <a href= " http://truongthptchuyen.vinhuni.edu.vn" > Thông tin trường </a>
+  <a href= "https://www.facebook.com/A2K52-103689981833509">Fanpage</a>
+  <a href= "bancansu.html" > Điều hành </a>
+  <a href="http://truongthptchuyen.vinhuni.edu.vn/thong-bao/seo/
+    thoi-khoa-bieu-hoc-ki-ii-thuc-hien-tu-ngay-01032021-101178">Thời khóa biểu</a>
+    <a href= "" > Thông báo </a>
+  <a href="#" style="float:right">Góp ý</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><span style="color: rgb(165, 77, 143); ">Thành viên</span></h2>
+      
+      <marquee direction="left" loop="10" scrolldelay="1" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()">
+
+  <a href="https://www.facebook.com/people/An-Pham/100009000354322/"><img src="1.jpg" title="Hoàng An" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100013128198522"><img src="2.jpg" title="Thanh An" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100039673494065"><img src="3.jpg" title="Tuấn Anh" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100028177040866"><img src="4.jpg" title="Đức Anh" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100027242494723"><img src="5.jpg" title="Đình Bách" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/dtyangyang24"><img src="6.jpg" title="Gia Bảo" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/danny.nptd"><img src="7.jpg" title="Thảo Đan" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/buidanhdat"><img src="8.jpg" title="Danh Đạt" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100024216874250"><img src="9.jpg" title="Đàm Đạt" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/tuandat312O20"><img src="10.jpg" title="Trình Đạt" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100023567477381"><img src="11.jpg" title="Huy Đức" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100035233834248"><img src="12.jpg" title="Phan Đức" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/thuhien.le.56679015"><img src="13.jpg" title="Lê Thu Hiền" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/thuyhien.le.9889261"><img src="14.jpg" title="Thúy Hiền" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/hien.tathu.9849"><img src="15.jpg" title="Tạ Hiền" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/lehieu.le.16752"><img src="16.jpg" title="Lê Hiếu" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100005079794922"><img src="17.jpg" title="Trung Hiếu" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100004837668807"><img src="18.jpg" title="Sỹ Hoàng" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/hoang.khac.3572846"><img src="19.jpg" title="Khắc Hoàng" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100011086141176"><img src="20.jpg" title="Cảnh Huy" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100029544033313"><img src="21.jpg" title="Đức Huy" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/kiendtrai246"><img src="22.jpg" title="Ngô Kiên" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/kien.pham.90475069"><img src="23.jpg" title="Phạm Kiên" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/linh.phamdieu.7359"><img src="24.jpg" title="Diệu linh" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/manh.luu.9674227"><img src="25.jpg" title="Mạnh" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100005371007783"><img src="26.jpg" title="Nhật Minh" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100038701085996"><img src="27.jpg" title="Văn Nguyên" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/dnguyen2410"><img src="28.jpg" title="Đào Nguyên" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100011066915205"><img src="29.jpg" title="Nhật" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100012849583942"><img src="30.jpg" title="Yến Nhi" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/nninh8283"><img src="31.jpg" title="Bảo Ninh" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100009039349676"><img src="32.jpg" title="Hải Phát" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/PhiTheCloud"><img src="33.jpg" title="Thiếu Phi" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/phuxuan.phan.3"><img src="34.jpg" title="Xuân Phú" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/vo.minhquang.7505468"><img src="35.jpg" title="Minh Quang" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/quy.nguyenhoang.9212"><img src="36.jpg" title="Hoàng Quý" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/son.cuong.25"><img src="37.jpg" title="Xuân Sơn" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/son.phanthanh.31508"><img src="38.jpg" title="Thanh Sơn" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/greencat.celestials"><img src="39.jpg" title="Bảo Thành" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/muoiinloneliness"><img src="40.jpg" title="Minh Thành" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/thao.lethiphuong.35513"><img src="41.jpg" title="Phương Thảo" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100004654968225"><img src="42.jpg" title="Thanh Thảo" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100018564570022"><img src="43.jpg" title="Đức Thắng" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/dangtrong.thien.7"><img src="44.jpg" title="Trọng Thiên" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100027151658340"><img src="45.jpg" title="Hà Thương" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/trangg.nhon.10"><img src="46.jpg" title="Thảo Trang" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100009431085029"><img src="47.jpg" title="Đình Trung" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100022813157785"><img src="48.jpg" title="Thế Trung" width="200" height="200"/> </a>
+  <a href="https://www.facebook.com/profile.php?id=100029328018108"><img src="49.jpg" title="Quang Vinh" width="200" height="200"/> </a>
+
+  </marquee>
+  <center><b> 49 màu sắc đặc biệt, mang đậm nét riêng.</b></center> <br>
+  <center><b> Tất cả hòa quyện tạo nên dải màu nổi bật A2K52KC.</b></center>
+  <style> 
+  b {
+        display: inline-block;
+        font: bold 4.5em/1.5 Bebas, sans-serif;
+        color: #105530; /*non-webkit fallback*/
+        font-size: 18px;
+        text-transform: uppercase;
+         background-image: linear-gradient(to bottom, #157768, #5fc06f, #DED37E, #219281);
+        background-size: auto 250%;
+        transition: background-position 0.5s;
+          -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 30px;
+        background-position: 0 100%;
+   }
+   b:hover {
+        background-position: 0 0;
+        cursor: pointer;
+   }
+  </style>
+    </div>
+    <div class="card">
+      <h2><span style="color: rgb(165, 77, 143); ">Kỉ niệm</span></h2>
+      <center><img src="kiniem.jpg" width="700" height="300">
+      <p>Gắn bó bên nhau suốt 3 năm, chắc chắn không thể thiếu những chuyến đi, trải nghiệm, hoạt động chung:</p>
+      <p>Những lần tổ chức 8/3, 20/10 cho chị em, Cu's day 6/4, Đại hội Đoàn, du lịch Đà Nẵng... </p>
+      <p> Thời gian trôi qua mau chỉ còn lại những kỉ niệm. Kỉ niệm thân yêu ơi sẽ còn nhớ mãi tiếng thầy cô,
+         bạn bè mến thương ơi,sẽ còn nhớ những lúc giận hờn , nhớ những lúc quậy phá , 
+         những lúc mong chờ được nghỉ tiết hay những giờ giải lao đầy vui vẻ và ..... kỉ niệm của khoảng thời gian ôn thi Tốt nghiệp THPT năm 2021.
+      </p>
+      </p></center>
+      <a href= "kỉ niệm.html" style="float: right;"> click here </a>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2><span style="color: rgb(165, 77, 143); ">Đôi lời từ admin</span></h2>
+      <img src="094344c3d8102a4e7301.jpg" width="360" height="100">
+      <p>Đây là trang web về A2K52 trường THPT chuyên Đại học Vinh. Nơi tập hợp 49 con người 
+        từ những ngôi nhà khác nhau đến và cùng xây dựng một ngôi nhà to lớn 
+        ,cùng sống chung , gắn bó suốt 3 năm.</p>
+        <p>Quãng đời chúng ta còn rất dài những mãi mãi không thể quay lại thời thanh xuân tươi đẹp có nhau.
+            Ta đã cùng nhau tạo ra những hồi ức tươi đẹp và nơi đây sẽ lưu giữ lại chúng.
+        </p>
+        <p>Tuy còn nhiều thiếu sót, mong các bạn đón nhận!</p>
+    </div>
+    <div class="card">
+      <h2><span style="color: rgb(165, 77, 143); ">Nổi bật</span></h2>
+      <center><video controls="controls"  src="a2k52kc2ky.mp4" width="380" height="200" type="video"> </center>
+      <br>
+      <center><marquee id="marq" Scrollamount="17" direction="left" loop="0" Scrolldelay="2S"behavior="Alternate"  onmouseover="this.stop()" onmouseout="this.start()">
+        <a href=><img src="dtqg.jpg"  width="250" height="180"/> </a>
+        <a href=><img src="idol.jpg"  width="250" height="180"/> </a>
+        <a href=><img src="noibat.jpg"  width="250" height="180"/> </a>
+        <a href=><img src="dttinh.JPG"  width="250" height="180"/> </a>
+    </marquee></center>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>  <center> <span style="color: rgb(95, 36, 100); 
+  background-color: rgb(255, 255, 255)">THANK YOU</span></center></h2>
+</div>
+
+</body>
+</html>
